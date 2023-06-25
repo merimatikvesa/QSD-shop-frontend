@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+  width: 100vw;
+  height: 70px;
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: rgba(40, 40, 40, 0.2) 0 10px 10px -10px;
+}
+.AdminIconClosed {
+  margin-right: 20px;
+}
+.list {
+  display: flex;
+  align-items: center;
+}
+.listItem {
+  padding: 0;
+  margin: 0;
+  color: var(--black-text);
+  font-size: medium;
+  font-weight: 500;
+  padding-right: 30px;
+  display: inline;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--black-text);
+  font-family: "Glory", sans-serif;
+}
+.LogoImage {
+  width: 250px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+}
+
+.Avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.AvatarButton {
+  padding-left: 20px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+.AvatarDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-right: 20px;
+}
+.shoppingBag {
+  width: 20px;
+  height: 20px;
+  color: var(--purple);
+}

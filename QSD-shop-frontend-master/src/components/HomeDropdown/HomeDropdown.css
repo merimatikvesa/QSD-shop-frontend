@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.OptionDiv {
+  background-color: var(--nav-white);
+  color: var(--black-text);
+  border-radius: 7px;
+  font-family: "Glory", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  border: 1px solid var(--borders);
+  transition: 200ms ease;
+  position: relative;
+  top: 200px;
+  right: 500px;
+}
+.AvatarDropdown {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.AvatarDiv1 {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.OptionOne {
+  width: 200px;
+  background-color: var(--nav-white);
+  height: 90px;
+  border-bottom: 1px solid var(--borders);
+  border-radius: 7px 7px 0 0;
+}
+.OptionTwo {
+  width: 200px;
+  background-color: var(--nav-white);
+  height: 110px;
+  border-bottom: 1px solid var(--borders);
+}
+.All {
+  width: 200px;
+  height: 50px;
+  box-sizing: border-box;
+}
+.All :hover {
+  background-color: #cdcdcd;
+}
+.Mode {
+  padding-top: 15px;
+  padding-left: 10px;
+  font-size: 15px;
+  font-weight: 200;
+  display: flex;
+}
+.MoonIcon {
+  height: 20px;
+  width: 20px;
+}
+.SunIcon {
+  color: orange;
+}
+.modeText {
+  padding-left: 5px;
+}
+.OptionHedding {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.SignInDiv {
+  width: 150px;
+  background-color: var(--nav-white);
+  height: 30px;
+  border-radius: 0 0 7px 7px;
+  font-size: 15px;
+  font-weight: 200;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.SignInDiv :hover {
+  background-color: #cdcdcd;
+}
